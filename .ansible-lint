@@ -1,0 +1,8 @@
+exclude_paths:
+- molecule/
+warn_list:  # or 'skip_list' to silence them completely
+  - experimental  # all rules tagged as experimental
+  - yaml
+  - fqcn-builtins
+  - meta-incorrect  # meta/main.yml default values should be changed.
+  - meta-no-info  # meta/main.yml should contain relevant info.
